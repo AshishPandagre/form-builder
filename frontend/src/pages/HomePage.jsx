@@ -17,7 +17,7 @@ const HomePage = () => {
         {
           options ?
             <div className='border w-fit shadow-lg flex flex-col text-2xl z-50 absolute'>
-              <Link to='/create-form/mcq' className='hover:bg-slate-100 px-12 py-4'>Multiple choice form</Link>
+              <Link to='/create-form/choice' className='hover:bg-slate-100 px-12 py-4'>Multiple choice form</Link>
               <Link to='/create-form/text' className='px-12 py-4 hover:bg-slate-100'>Text based form</Link>
             </div>
             :
